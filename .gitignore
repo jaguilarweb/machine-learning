@@ -1,0 +1,53 @@
+# 🔹 Ignorar archivos temporales de Jupyter Notebook
+.ipynb_checkpoints/
+
+# 🔹 Evitar archivos grandes generados en entrenamientos
+*.h5
+*.hdf5
+*.ckpt
+*.tflite
+*.onnx
+*.pb
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.csv.gz
+*.tar.gz
+*.zip
+*.log
+*.out
+*.metrics
+
+# 🔹 Evitar caché de Python y Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Evitar entornos virtuales (si usas virtualenv o venv en lugar de Conda)
+venv/
+.env/
+*.env
+
+# 🔹 Evitar entornos Conda (si decides no compartir el `environment.yml`)
+/envs/
+/.conda/
+/conda-meta/
+
+# 🔹 Evitar credenciales o configuraciones personales
+*.json
+*.sqlite
+*.db
+*.config
+*.token
+
+# 🔹 Ignorar archivos de salida de entrenamientos
+logs/
+results/
+output/
+
+# 🔹 Ignorar modelos y checkpoints pesados (si los subes a otro lado como Hugging Face o Google Drive)
+models/
+checkpoints/
+saved_models/
